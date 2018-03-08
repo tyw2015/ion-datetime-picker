@@ -11,7 +11,7 @@
     <label class="col year-input">
       <div class="item item-input">
         <div>
-          <input type="number" ng-model="bind.year" min="1900" max="2999" ng-change="change('year')" ng-blur="changed()" required>
+          <input type="number" ng-model="bind.year" min="1900" max="2999" ng-change="change('year')" ng-blur="changed()" required readonly>
         </div>
       </div>
     </label>
@@ -51,7 +51,7 @@
     <label class="col col-20">
       <div class="item item-input">
         <div>
-          <input type="text" ng-model="bind.hour" pattern="0?([01]?[0-9]|2[0-3])" ng-change="change('hour')" ng-blur="changed()" required>
+          <input type="text" ng-model="bind.hour" pattern="0?([01]?[0-9]|2[0-3])" ng-change="change('hour')" ng-blur="changed()" required readonly>
         </div>
       </div>
     </label>
@@ -59,7 +59,7 @@
     <label class="col col-20">
       <div class="item item-input">
         <div>
-          <input type="text" ng-model="bind.minute" pattern="0?[0-5]?[0-9]" ng-change="change('minute')" ng-blur="changed()" required>
+          <input type="text" ng-model="bind.minute" pattern="0?[0-5]?[0-9]" ng-change="change('minute')" ng-blur="changed()" required readonly>
         </div>
       </div>
     </label>
